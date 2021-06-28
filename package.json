@@ -1,0 +1,29 @@
+{
+  "name": "logbook",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/tarosky/logbook.svg?branch=master)](https://travis-ci.org/tarosky/logbook)",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "wp-env run phpunit \"phpunit -c /var/www/html/wp-content/plugins/logbook/phpunit.xml.dist --verbose\"",
+    "dev": "wp-env start",
+    "wp-env": "wp-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hideokamoto/logbook.git"
+  },
+  "keywords": [],
+  "author": "Hidetaka Okamoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hideokamoto/logbook/issues"
+  },
+  "homepage": "https://github.com/hideokamoto/logbook#readme",
+  "devDependencies": {
+    "@wordpress/env": "^4.0.5"
+  }
+}
